@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mod",
+  "version": "1.0.0",
+  "name": "深渊&活动AFK",
+  "description": "自动挂机模组",
+  "authors": ["DieDieWong"],
+  "contact": {
+    "homepage": "https://space.bilibili.com/1927038982"
+  },
+  "license": "MIT",
+  "icon": "assets/mod/icon.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.MyMod"],
+    "client": ["com.example.MyModClient"],
+    "fabric-datagen": ["com.example.MyModDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.06",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
